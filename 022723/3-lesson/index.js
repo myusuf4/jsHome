@@ -78,17 +78,19 @@
 //     console.log(`number ${i}`);
 // }
 
-// let num =100;
+let num =100;
 
-// for(let i = 1;i < num; i++){
-//     tub=true;
-//     for(let j = 2; j < i ; j++){
-//         if(i%j==0){
-//             tub=false;
-//             break;
-//         }
-//     }
-//     if(tub==true){
-//         console.log(`${i} => tub son`);
-//     }
-// }
+for(let i = 1;i < num; i++){
+    tub=true;
+    for(let j = 2; j < i; j++){
+        if(i%j==0){
+            tub=false;
+            break;
+        }
+    }
+    if(tub==true){
+        console.log(`${i} => tub son`);
+    }
+}
+
+
