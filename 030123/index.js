@@ -30,7 +30,7 @@
 
 // min(2,5)
 
-function pow(a,b){
-    return a ** b;
-}
-console.log(pow(3,2));
+// function pow(a,b){
+//     return a ** b;
+// }
+// console.log(pow(3,2));
