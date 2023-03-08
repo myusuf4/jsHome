@@ -100,20 +100,42 @@
 // Search(obj)
 
 
-let obj={
-  id:1,
-  name:"atirgul",
-  color:"qizil",
-  count:10,
-  price:"10$"
-}
+// let obj={
+//   id:1,
+//   name:"atirgul",
+//   color:"qizil",
+//   count:10,
+//   price:"10$"
+// }
 
-function Search(obj){
-    for(i in obj){
-        if(typeof obj[i]=="string"){
-            console.log(`${i}:${obj[i]}`);
+// function Search(obj){
+//     for(i in obj){
+//         if(typeof obj[i]=="string"){
+//             console.log(`${i}:${obj[i]}`);
+//         }
+//     }
+// }
+// Search(obj)
+
+let user = {
+    id: 1,
+    name: 'Odil',
+    age:78,
+    child: {
+        id: 1,
+        name: 'Ali',
+        age:48,
+        child: {
+            id: 1,
+            name: 'Umar',
+            age:20
         }
     }
 }
-Search(obj)
+let sum = 0;
+while(user){
+    sum+=user.age;
+    user = user.child
+}
 
+console.log(sum);
