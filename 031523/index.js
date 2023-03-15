@@ -49,35 +49,49 @@
 //   console.log(getCharCount("webbrain")); 
   
 
-
-    function count(sting) {
-        let stringCount = 0;
-        let numCount = 0;
-        let charCount = 0;
-        let obj = {};
+//////////////5////////////////
+    // function count(sting) {
+    //     let stringCount = 0;
+    //     let numCount = 0;
+    //     let charCount = 0;
+    //     let obj = {};
       
-        for (let i=0; i<sting.length; i++) {
-          let char = sting.charAt(i);
+    //     for (let i=0; i<sting.length; i++) {
+    //       let char = sting.charAt(i);
       
           
-        if (!isNaN(char)) {
-            numCount++;
-          }
-         else if (char==="~"||"!"||"@"||"#"||"$"||"%"||'^'||'&'||"*") {
-            charCount++;
-         }
-      if(isNaN(char)){
-        stringCount++;
-      }
+    //     if (!isNaN(char)) {
+    //         numCount++;
+    //       }
+    //      else if (char==="~"||"!"||"@"||"#"||"$"||"%"||'^'||'&'||"*") {
+    //         charCount++;
+    //      }
+    //   if(isNaN(char)){
+    //     stringCount++;
+    //   }
        
-        }
+    //     }
       
-        obj.string = stringCount;
-        obj.num = numCount;
-        obj.char = charCount;
+    //     obj.string = stringCount;
+    //     obj.num = numCount;
+    //     obj.char = charCount;
       
-        return obj;
-      }
+    //     return obj;
+    //   }
       
-      console.log(count("W3@S21#$")); // returns {"string": 2, "num": 1, "char": 18}
+    //   console.log(count("W3@S21#$")); // returns {"string": 2, "num": 1, "char": 18}
+
+
+    function UpperCase(str) {
+        let result = str.split('.');
+        
+//         for (let i = 0; i < result.length; i++) {
+//           result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1);
+//         }
+        
+//         return result.join('.');
+//       }
       
+
+      
+// console.log(UpperCase("webbrain.academy"));      
