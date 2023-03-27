@@ -32,15 +32,15 @@
 //5////
 
 
-let user=[
-    {id:1,year:1998,engine:1,name:"Tico"},
-    {id:2,year:2005,engine:1.2,name:"Matiz"},
-    {id:3,year:2010,engine:1.6,name:"Jentra"},
-    {id:4,year:2010,engine:1.5,name:"Cobalt"},
-    {id:5,year:2012,engine:2,name:"Malibu"},
-    {id:6,year:2000,engine:1.2,name:"Damas"},
-    {id:7,year:2018,engine:2.4,name:"Tracker"},
-]
+// let user=[
+//     {id:1,year:1998,engine:1,name:"Tico"},
+//     {id:2,year:2005,engine:1.2,name:"Matiz"},
+//     {id:3,year:2010,engine:1.6,name:"Jentra"},
+//     {id:4,year:2010,engine:1.5,name:"Cobalt"},
+//     {id:5,year:2012,engine:2,name:"Malibu"},
+//     {id:6,year:2000,engine:1.2,name:"Damas"},
+//     {id:7,year:2018,engine:2.4,name:"Tracker"},
+// ]
 
 // let res=user.filter((v)=>v.year<2000);
 // console.log(res);
@@ -70,5 +70,5 @@ let user=[
 // console.log(res6);
 
 
-let res6=user.filter((v)=>v.year>2010&&v.year<=2022?v.status="yangi":v)
-console.log(res6);
+// let res6=user.filter((v)=>v.year>2010&&v.year<=2022?v.status="yangi":v)
+// console.log(res6);
