@@ -221,4 +221,10 @@
 // console.log(ar.join("")==ar1.join(""));
 
 
+// let ar=[1,4,5,7,787,66,54,5];
 
+// for(v of ar){
+//     if(`${v}`.length > 1){
+//         console.log(v);
+//     }
+// }
