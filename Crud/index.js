@@ -207,7 +207,7 @@
 
 //ex
 // let str="web";
-// let str1="ebw";
+// let str1="ew";
 
 // let changeStr=str.split("").sort((a,b)=>a.localeCompare(b)).join()
 // let changeStr1=str1.split("").sort((a,b)=>a.localeCompare(b)).join()
@@ -221,6 +221,7 @@
 // console.log(ar.join("")==ar1.join(""));
 
 
+
 // let ar=[1,4,5,7,787,66,54,5];
 
 // for(v of ar){
@@ -228,3 +229,19 @@
 //         console.log(v);
 //     }
 // }
+
+// let ar=[1,3,4,3,4,5,2,1];
+
+// const removeDUB=(ar)=>{
+//    let res=[];
+//     let sort=ar.sort((a,b)=>a-b);
+//     sort.forEach((e)=>{
+//         if(res[res.length-1]!==e){
+//             res.push(e);
+//         }
+//     })
+//     return res;
+// }
+
+// console.log(removeDUB(ar));
+
