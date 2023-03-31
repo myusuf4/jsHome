@@ -116,4 +116,12 @@ const moment = () => {
   };
   
 }
-  console.log(moment().format("LLLL"));
+  console.log(moment().format("L"));
+
+
+  let name=-5.676;
+
+  console.log(Math.ceil(name));
+
+
+  
