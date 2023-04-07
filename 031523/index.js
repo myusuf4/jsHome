@@ -85,13 +85,16 @@
     function UpperCase(str) {
         let result = str.split('.');
         
-//         for (let i = 0; i < result.length; i++) {
-//           result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1);
-//         }
+        for (let i = 0; i < result.length; i++) {
+          result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1);
+        }
         
-//         return result.join('.');
-//       }
+        return result.join('.');
+      }
       
 
       
-// console.log(UpperCase("webbrain.academy"));      
+console.log(UpperCase("webbrain academy"));      
+
+let arr= new Array(3)
+console.log(arr);

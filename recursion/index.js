@@ -37,14 +37,21 @@
 //   console.log(fib(7)); // 13
 //   console.log(fib(77)); // 5527939700884757
 
-// console.log( sum(1)(2) ); // 3
-// console.log( sum(5)(1)(2) ); // 6
-// console.log( sum(6)(-1)(-2)(-3) ); // 0
-// console.log( sum(0)(1)(2)(3)(4)(5) ); // 15
 
 
-function sum(a) {
-    return (b) => (b ? sum(a + b) : a);
-  }
+// function sum(a) {
+//     return (b) => (b ? sum(a + b) : a);
+//   }
   
-  console.log(sum(-1)(2)(3)(4)(5)());
+//   console.log(sum(-1)(2)(3)(4)(5)());
+
+
+let str="Webbrain"
+
+for(e of str){
+    console.log(e);
+}
+console.log(str[0]);
+console.log(str.charAt(0));
+console.log(str.at(0));
+console.log(str[str.length-1]);
