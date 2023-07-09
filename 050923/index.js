@@ -2,7 +2,7 @@ let obj ={
     name : "zukkowducation" ,
     teachers : 10 ,
     location : "beruniy",
-    id : 88838,
+    id : 888,
   }
 
   for(let i in obj){
